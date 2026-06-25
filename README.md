@@ -21,7 +21,6 @@ contract LiquidityPool {
         token2.transferFrom(msg.sender, address(this), amount2);
         liquidity += amount1 + amount2;
     }
-
     function withdrawLiquidity(uint256 amount) external {
         require(liquidity >= amount, "Insufficient liquidity");
         liquidity -= amount;
