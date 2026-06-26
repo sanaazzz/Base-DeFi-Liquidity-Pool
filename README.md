@@ -9,7 +9,6 @@ contract LiquidityPool {
     IERC20 public token2;
     uint256 public liquidity;
     uint256 public apr;
-
     constructor(address _token1, address _token2, uint256 _apr) {
         token1 = IERC20(_token1);
         token2 = IERC20(_token2);
