@@ -1,9 +1,7 @@
 # Base-DeFi-Liquidity-Pool
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-
 contract LiquidityPool {
     IERC20 public token1;
     IERC20 public token2;
