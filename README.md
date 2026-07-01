@@ -10,7 +10,7 @@ contract LiquidityPool {
     constructor(address _token1, address _token2, uint256 _apr) {
         token1 = IERC20(_token1);
         token2 = IERC20(_token2);
-        apr = _apr;
+    apr = _apr;
     }
 
     function addLiquidity(uint256 amount1, uint256 amount2) external {
