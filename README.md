@@ -22,4 +22,3 @@ contract LiquidityPool {
         token1.transfer(msg.sender, amount);
         token2.transfer(msg.sender, amount);
     }
-}
